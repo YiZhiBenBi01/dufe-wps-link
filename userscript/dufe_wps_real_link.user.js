@@ -2,7 +2,7 @@
 // @name         DUFEE 课件真实链接提取器
 // @namespace    https://github.com/YiZhiBenBi01/dufe-wps-link
 // @version      1.1
-// @description  在 ginkgostu 课程详情页识别 WPS 在线预览的真实下载链接，仅在当前页面悬浮窗显示（不自动跳转）
+// @description  东北财经大学（白果云 ginkgostu）课程详情页 WPS 在线预览课件的真实下载链接提取器：自动识别 weboffice 预览链接、解码出源站直链，仅在当前页面悬浮窗显示，不自动跳转。支持 Tampermonkey / Violentmonkey。
 // @author       WorkBuddy
 // @match        https://ginkgostu.dufe.edu.cn/course/detail*
 // @grant        none
