@@ -1,4 +1,4 @@
-# DUFEE 课件真实链接提取器
+# DUFE 课件真实链接提取器
 
 把东北财经大学 `ginkgostu.dufe.edu.cn/course/detail` 课程详情页里「仅可在线预览、不可下载」的 WPS 课件，还原成可直接下载 / 打开的**真实源站链接**。
 
@@ -8,7 +8,7 @@ WPS 在线预览页（`weboffice`）只是个壳，真实文件地址被编码�
 
 ## 两种使用形式
 
-本项目提供**同一种能力**的两种形态，按需选用其一即可：
+本项目提供两种安装方式，按需选用其一即可。
 
 | 形式 | 目录 | 适合 | 依赖 |
 | --- | --- | --- | --- |
@@ -30,7 +30,7 @@ WPS 在线预览页（`weboffice`）只是个壳，真实文件地址被编码�
 
 > 从本仓库 Raw 安装后可**自动更新**：作者发新版时，油猴会自动提示升级。详细见 [`userscript/README.md`](./userscript/README.md)。
 
-### 方式二：浏览器扩展（Manifest V3）
+### 方式二(推荐)：浏览器扩展（Manifest V3）
 
 适合不想装 Tampermonkey、希望浏览器原生加载的情况。同一套文件兼容 Chrome / Edge / Brave / Opera / Vivaldi / Firefox(109+)。
 
@@ -39,16 +39,17 @@ WPS 在线预览页（`weboffice`）只是个壳，真实文件地址被编码�
    - Chrome / Brave / Vivaldi / Opera / Edge：`chrome://extensions`（Edge 为 `edge://extensions`），打开右上角 **开发者模式**。
    - Firefox(109+)：`about:debugging` → 此 Firefox。
 3. 点 **加载已解压的扩展程序 / 临时载入附加组件**，选择 `extension/` 文件夹（内含 `manifest.json` 的那一层）。
-4. 加载成功后在扩展列表里能看到「DUFEE 课件真实链接提取器」。
+4. 加载成功后在扩展列表里能看到「DUFE 课件真实链接提取器」。
 
 > Firefox 的「临时载入」每次重启浏览器需重新载入，属正常现象；正式上架 AMO 后可常驻。详细见 [`extension/README.md`](./extension/README.md)。
 
-## 共通使用步骤
+## 使用方法
 
 1. 打开 `https://ginkgostu.dufe.edu.cn/course/detail`（需登录能看到课件的账号）。
 2. 页面右下角出现红色 **「显示真实链接」** 按钮，角标显示找到的数量。
-3. 点一下：自动扫描 → 在当前页面浮出悬浮窗，列出全部真实链接（**不自动跳转**）。
+3. 点一下：自动扫描 → 在当前页面浮出悬浮窗，列出全部真实课件链接。
 4. 悬浮窗内逐条可「新标签打开 / 下载」，底部「复制全部链接」。
+5. 若在课件页面未找到悬浮窗，可刷新页面重试。
 
 ## 发布说明
 
