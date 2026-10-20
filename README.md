@@ -1,6 +1,6 @@
 # DUFE 课件真实链接提取器
 
-把东北财经大学 `ginkgostu.dufe.edu.cn/course/detail` 课程详情页里「仅可在线预览、不可下载」的 WPS 课件，还原成可直接下载 / 打开的**真实源站链接**。
+把东北财经大学 白果云课堂`ginkgostu.dufe.edu.cn/course/detail` 课程详情页里「仅可在线预览、不可下载」的 WPS 课件，还原成可直接下载 / 打开的**真实源站链接**。
 
 ## 原理
 
