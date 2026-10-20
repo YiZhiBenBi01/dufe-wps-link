@@ -26,7 +26,7 @@ WPS 在线预览页（`weboffice`）只是个壳，真实文件地址被编码�
 
 ## 发布说明
 
-- 作者 GitHub：[@1railgun1](https://github.com/1railgun1)
+- 作者 GitHub：[@YiZhiBenBi01](https://github.com/YiZhiBenBi01)
 - 油猴脚本已配置 `@updateURL` / `@downloadURL`，作者发新版后用户端会自动提示升级（需从本仓库 Raw 安装）。
 - 扩展为 Manifest V3，同一套文件兼容 Chrome / Edge / Brave / Opera / Vivaldi / Firefox(109+)。
 

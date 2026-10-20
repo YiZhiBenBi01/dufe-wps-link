@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         DUFEE 课件真实链接提取器
-// @namespace    https://github.com/1railgun1/dufe-wps-link
+// @namespace    https://github.com/YiZhiBenBi01/dufe-wps-link
 // @version      1.1
 // @description  在 ginkgostu 课程详情页识别 WPS 在线预览的真实下载链接，仅在当前页面悬浮窗显示（不自动跳转）
 // @author       WorkBuddy
@@ -8,10 +8,10 @@
 // @grant        none
 // @run-at       document-idle
 // @license      MIT
-// @homepageURL  https://github.com/1railgun1/dufe-wps-link
-// @supportURL   https://github.com/1railgun1/dufe-wps-link/issues
-// @updateURL    https://raw.githubusercontent.com/1railgun1/dufe-wps-link/main/dufe_wps_real_link.user.js
-// @downloadURL  https://raw.githubusercontent.com/1railgun1/dufe-wps-link/main/dufe_wps_real_link.user.js
+// @homepageURL  https://github.com/YiZhiBenBi01/dufe-wps-link
+// @supportURL   https://github.com/YiZhiBenBi01/dufe-wps-link/issues
+// @updateURL    https://raw.githubusercontent.com/YiZhiBenBi01/dufe-wps-link/main/dufe_wps_real_link.user.js
+// @downloadURL  https://raw.githubusercontent.com/YiZhiBenBi01/dufe-wps-link/main/dufe_wps_real_link.user.js
 // ==/UserScript==
 
 (function () {

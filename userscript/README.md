@@ -39,7 +39,7 @@ WPS 在线预览页（`weboffice`）只是个壳，真实文件地址被编码�
 - 脚本仅在 `ginkgostu.dufe.edu.cn/course/detail*` 生效，不会在其他网站运行。
 - 若课程页 DOM 形态不同导致抓取不到，按 F12 看课件链接长什么样，把形态反馈给作者即可微调选择器。
 - 本脚本不会自动打开新标签或弹窗，所有「新标签打开 / 下载」都需要你手动点击悬浮窗里的按钮。
-- 脚本头部的 GitHub 用户名（`1railgun1`）、`@updateURL` / `@downloadURL` 等已配置好，无需再改即可自动更新。
+- 脚本头部的 GitHub 用户名（`YiZhiBenBi01`）、`@updateURL` / `@downloadURL` 等已配置好，无需再改即可自动更新。
 
 ## 使用须知
 
