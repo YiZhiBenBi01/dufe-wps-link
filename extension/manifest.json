@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "DUFEE 课件真实链接提取器",
+  "version": "1.0.0",
+  "description": "在 ginkgostu.dufe.edu.cn 课程详情页识别 WPS 在线预览的真实下载链接，列表面板 + 新标签打开 / 直接下载。支持 Chrome、Edge、Brave、Opera、Firefox 等支持 WebExtensions 的浏览器。",
+  "content_scripts": [
+    {
+      "matches": ["https://ginkgostu.dufe.edu.cn/course/detail*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": [
+    "https://ginkgostu.dufe.edu.cn/*",
+    "https://*.dufe.edu.cn/*"
+  ]
+}
