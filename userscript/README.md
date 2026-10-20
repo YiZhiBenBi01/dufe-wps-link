@@ -27,6 +27,8 @@ WPS 在线预览页（`weboffice`）只是个壳，真实文件地址被编码�
 1. Tampermonkey 管理面板 → 新建脚本 → 把 `dufe_wps_real_link.user.js` 内容整段粘贴 → 保存。
 2. 或直接把 `.user.js` 文件拖进 Tampermonkey 导入。
 
+> 也可以在本仓库 GitHub 页面点绿色 **Code → Download ZIP** 下载整个仓库，解压后在 `userscript/` 子文件夹里找到本脚本。
+
 ## 使用
 
 1. 打开 `https://ginkgostu.dufe.edu.cn/course/detail`（需已登录能看到课件的账号）。

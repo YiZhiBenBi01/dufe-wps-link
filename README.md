@@ -17,6 +17,32 @@ WPS 在线预览页（`weboffice`）只是个壳，真实文件地址被编码�
 
 两者核心逻辑完全一致：扫描页面 → 解码 `_w_third_business` → 在**当前页面悬浮窗**列出真实链接（不自动跳转，需手动点「新标签打开 / 下载」）。
 
+## 安装
+
+### 方式一：油猴脚本（Tampermonkey）
+
+适合不想装浏览器扩展、只想在课程页加一个按钮的情况。
+
+1. 给浏览器装上 [Tampermonkey](https://www.tampermonkey.net/) 扩展。
+2. 在本仓库打开 [`userscript/dufe_wps_real_link.user.js`](./userscript/dufe_wps_real_link.user.js)，点击 **Raw**。
+3. 当地址栏变为 `raw.githubusercontent.com/...` 时，Tampermonkey 会弹出「是否安装此脚本」→ 点 **安装**。
+4. （手动导入备选）管理面板 → 新建脚本 → 把 `.user.js` 内容整段粘贴保存；或直接把文件拖进 Tampermonkey。
+
+> 从本仓库 Raw 安装后可**自动更新**：作者发新版时，油猴会自动提示升级。详细见 [`userscript/README.md`](./userscript/README.md)。
+
+### 方式二：浏览器扩展（Manifest V3）
+
+适合不想装 Tampermonkey、希望浏览器原生加载的情况。同一套文件兼容 Chrome / Edge / Brave / Opera / Vivaldi / Firefox(109+)。
+
+1. 下载本仓库（绿色 **Code → Download ZIP** 或 `git clone`），解压得到 `extension/` 文件夹。
+2. 打开扩展管理页：
+   - Chrome / Brave / Vivaldi / Opera / Edge：`chrome://extensions`（Edge 为 `edge://extensions`），打开右上角 **开发者模式**。
+   - Firefox(109+)：`about:debugging` → 此 Firefox。
+3. 点 **加载已解压的扩展程序 / 临时载入附加组件**，选择 `extension/` 文件夹（内含 `manifest.json` 的那一层）。
+4. 加载成功后在扩展列表里能看到「DUFEE 课件真实链接提取器」。
+
+> Firefox 的「临时载入」每次重启浏览器需重新载入，属正常现象；正式上架 AMO 后可常驻。详细见 [`extension/README.md`](./extension/README.md)。
+
 ## 共通使用步骤
 
 1. 打开 `https://ginkgostu.dufe.edu.cn/course/detail`（需登录能看到课件的账号）。

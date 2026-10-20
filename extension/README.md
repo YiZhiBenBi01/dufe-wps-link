@@ -23,11 +23,11 @@ dufe-wps-link/
 
 ## 安装试用（开发者模式）
 
-1. 下载/克隆本文件夹到本地。
+1. 下载本仓库：GitHub 页面点绿色 **Code → Download ZIP**，解压后进入其中的 `extension/` 子文件夹（也可 `git clone`）。
 2. 打开浏览器的扩展管理页（见上表地址）。
 3. 开启「开发者模式」（Chrome/Edge 右上角；Firefox 在 `about:debugging` 无需此步）。
-4. 点「加载已解压的扩展程序 / 临时载入附加组件」，选择 **本文件夹**（含 `manifest.json` 的那一层）。
-5. 打开 `https://ginkgostu.dufe.edu.cn/course/detail`，右下角出现红色 **「显示真实链接」** 按钮即可使用。
+4. 点「加载已解压的扩展程序 / 临时载入附加组件」，选择 **`extension/` 文件夹**（即内含 `manifest.json` 的那一层）。
+5. 加载成功后，打开 `https://ginkgostu.dufe.edu.cn/course/detail`，右下角出现红色 **「显示真实链接」** 按钮即可使用。
 
 > Firefox 的「临时载入」每次浏览器重启需重新载入，属正常现象；正式上架 AMO 后可常驻。
 
